@@ -1,0 +1,199 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background: url("./img/2マネスキン.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    width: 100%;
+    height: 1000px;
+}
+
+.description h1{
+     font-size: 23px;
+     padding: 50px;
+
+}
+.profile-img{
+     height: 300px;
+     border-radius: 50%;
+}
+@media screen  and (max-width:780px){
+     .profile{
+          flex-direction: column;
+     }
+
+}
+
+.profile-left {
+     padding: 30px 0 30px 0;
+}
+.profile-right {
+     padding-left: 50px;
+}
+.profile-details {
+     display: flex;
+     font-size: 22px;
+}
+.detail-left{
+     font-weight: bolder;
+}
+.detail-right{
+     padding: 30px;
+}
+.detail-right{ 
+     font-size: 50px;
+     margin-bottom: 30px;
+}
+.recs-wrap h1{
+     padding-top: 70px;
+     padding-bottom: 30px;
+     text-align: center;
+}
+
+.recs {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: row;
+     width: 90%;
+     margin: 0 auto;
+     /* height: 100%; */
+}
+@media screen and (max-width:780px){
+     .recs{
+          flex-direction: column;
+     }
+}
+.rec {
+     width: 31%;
+     height: 480px;
+     text-align: left;
+     margin-left: 10px;
+} 
+@media screen and (max-width:780px){
+     .rec{
+          width: 100%;
+          height: auto;
+          margin-bottom: 41px;
+     }
+     
+}
+.main h1{
+    text-align: center;
+    font-size: 100px;
+}
+.rec-img {
+    height: 300px;
+    width: 100%;
+}
+.rec-bottom h2 {
+    margin: 10px 0;
+    font-size: 19px;
+}
+.rec-bottom{
+    height: 274px;
+}
+.rec-bottom p {
+    height: 100px;
+}
+.btn {
+    text-align: right;
+    margin-top: 100px;
+}
+button {
+    font: 18px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 8px 14px;
+    border-radius: 80px;
+}
+button:hover {
+    opacity: .8;
+}
+.intro {
+    height: 100%;
+    margin-top: 170px;
+}
+.intro-detail{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.recommend-music{
+    height: 320px;
+    width: 50%;
+    margin: 40px;
+}
+.recommend-music1 {
+    height: 320px;
+    width: 50%;
+    margin: 40px;
+    transform: translate(780px);
+}
+.recommend-test {
+    position: relative;
+    bottom: 350px;
+    left: 500px;
+}
+.recommend-test2 {
+    position: relative;
+    bottom: 350px;
+    right: 680px;
+}
+.recommend-test3 {
+    position: relative;
+    bottom: 300px;
+    left: 500px;
+}
+.sns-button {
+    margin: 3px;
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+  }
+  .sns-button a {
+    text-decoration: none;
+  }
+  .moji {
+    justify-content: space-between;
+
+  }
+  
+  
+  /* 各 SNS ボタンのボックス */
+  .sns-button li  {
+    display: inline-block; 
+    margin: 5px;
+    padding: px 0px;
+    border-radius: 4px;
+    box-shadow:2.8px 2.8px #ffffff;
+    width: 70px;
+    height: 70px;
+    line-hight: 70px;
+  }
+  
+  /* アイコン */
+  .sns-button i {
+    text-align:center;
+    font-size: 35px;
+    margin: 0px;
+    padding: 17px 0px 0px 0px;
+    color: #ffffff;
+  }
+  
+  /* アイコンホバー */
+  .sns-button li:hover{
+    opacity: 0.8;
+  }
+  .button_twitter   { background: #000000; }
+  
